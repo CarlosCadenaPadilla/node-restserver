@@ -9,7 +9,7 @@ const { verificaToken } = require('../middlewares/autenticacion');
 const app = express();
 
 //===========================//
-//Muestra todas las categorias
+//Muestra todas las categorias*
 //===========================//
 app.get('/categoria', verificaToken, (req, res) => {
 
