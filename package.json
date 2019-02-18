@@ -1,0 +1,31 @@
+{
+  "name": "07-restserver",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Andres Cadena Padilla <carlos.cadena@correounivalle.edu.co>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fakegoose": "0.0.3",
+    "google-auth-library": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.4",
+    "mongoose-unique-validator": "^2.0.2",
+    "node-pre-gyp": "^0.11.0",
+    "nodemon": "^1.18.10",
+    "python": "0.0.4",
+    "underscore": "^1.9.1"
+  },
+  "repository": "https://github.com/CarlosCadenaPadilla/node-restserver.git"
+}
